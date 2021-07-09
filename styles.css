@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(124, 43, 201);
+}
+.main
+{
+    font-family: 'open sans',sans-serif;
+    margin-top: 2.3rem;
+    margin-bottom: 2.3rem;
+    width: 18rem;
+}
+.brand-logo {
+
+    text-align: left;
+    margin-bottom: 4.0625rem;
+ }
+ .brand-logo img {
+    width: 7.625rem;
+}
+.hero
+{
+    display: flex;
+    flex-direction: column;
+}
+.hero img {
+    width: 18rem;
+    margin-bottom: 4.0625rem;
+}
+.text-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 1.2rem;
+}
+
+.description {
+    color: white;
+    font-size: .875rem;
+    line-height: 2.1;
+    margin-bottom: 1.6625rem;
+}
+.cta {
+    padding: 16px 76px;
+    border-radius: 50px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    margin-bottom: 4.0625rem;
+    color: rgb(124, 43, 201);
+    transition: all 250ms ease-in-out;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background-color: rgb(117, 62, 172);
+    color: white;
+}
+.social
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social_item
+{
+    color: white;
+    margin: 0.5rem;
+    font-size: 2rem;
+}
+
+
+
